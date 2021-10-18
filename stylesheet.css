@@ -1,0 +1,242 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 20px;
+    font-weight: 700;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+}
+
+.menu {
+    float: right;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header ul li {
+    float: left;
+}
+
+header ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 10px 30px 10px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    background-color:#3f72af;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.kolom .heading {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.btn-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.btn-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+a.btn-pink {
+    font-weight: bold;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 15px 40px;
+    background-color: #fc5185;
+    cursor: pointer;
+    box-shadow: 0 7px #b42373;
+}
+  
+a.btn-pink:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.main {
+    padding: 200px 0 200px 0;
+    background-image: url(https://image.freepik.com/free-photo/silhouettes-businesspeople-office_1098-2957.jpg);
+    background-size: cover;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+.home {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    font-size: medium;
+}
+.home h1 {
+    opacity: 100;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    text-shadow: 3px 2px 1px grey;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    width: 100%;
+}
+
+.services-list{
+    display:flex;
+    float: left;
+    position: relative;
+}
+
+.services-icon p ul li {
+    width: 50%;
+    margin-top: 15px;
+    font-size: 15px;
+}
+  
+.services-icon img {
+    margin: auto;
+    display:inline-block;
+    width: 400px;
+}
+
+.tim-list {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tim {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tim img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tim p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+#contact {
+    background: #dedede;
+    padding:50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-left {
+    width: 500px;
+    margin: auto;
+}
+
+.footer-right {
+    margin: auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
