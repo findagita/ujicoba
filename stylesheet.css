@@ -19,6 +19,7 @@ body {
 .logo {
     float: left;
     font-family: Poppins;
+    padding-top: 50px
 }
 
 .menu {
@@ -50,15 +51,16 @@ header ul li {
 }
 
 header ul li a {
-    color: black;
-    font-weight: bold;
+    color: ##247291;
+    font-weight: medium;
     text-align: center;
     padding: 30px 10px 30px 10px;
     text-decoration: none;
 }
 
 header ul li a:hover {
-    background-color:#3f72af;
+    background-color:#f8da5b;
+    transition: 0.5s;
 }
 
 section {
@@ -122,9 +124,10 @@ a.btn-pink:active {
 }
 
 .main {
-    padding: 200px 0 200px 0;
-    background: radial-gradient(#eef2e2,#f8da5b6);
-    text-align: center;
+    padding: 200px 50px 200px 50px;
+    background: background: radial-gradient(ellipse at top, #e66465, transparent),
+                radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+    text-align: left;
 }
 
 .home {
