@@ -67,12 +67,14 @@ section {
     margin: auto;
     display: flex;
     margin-bottom: 50px;
+    background: radial-gradient(#e66465, #9198e5);
 }
 
 .kolom {
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
+    background: radial-gradient(#e66465, #9198e5);
 }
 
 .kolom .heading {
@@ -103,7 +105,7 @@ a.btn-biru {
 }
 
 a.btn-biru:hover {
-    background: #fc5185;
+    background: radial-gradient(#e66465, #9198e5);
     text-decoration: none;
 }
 
@@ -125,8 +127,7 @@ a.btn-pink:active {
 
 .main {
     padding: 200px 50px 200px 50px;
-    background: radial-gradient(ellipse at top, #e66465, transparent),
-                radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+    background: radial-gradient(#e66465, #9198e5);
     text-align: left;
 }
 
@@ -136,8 +137,7 @@ a.btn-pink:active {
     padding: 0 15px;
     margin: 0 auto;
     font-size: medium;
-    background: radial-gradient(ellipse at top, #e66465, transparent),
-                radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+    background: radial-gradient(#e66465, #9198e5);
 }
 .home h1 {
     opacity: 100;
@@ -203,7 +203,7 @@ p {
 }
 
 #contact {
-    background: #dedede;
+    background: radial-gradient(#e66465, #9198e5);
     padding:50px 0px 50px 0px;
 }
 
