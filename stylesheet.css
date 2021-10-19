@@ -7,8 +7,8 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Poppins',sans-serif;
-    background: radial-gradient(#f8da5b,#eef2e2);
+    font-family: 'Shrikhand',cursive;
+    background: radial-gradient(#9fd3c7,#eef2e2);
 }
 
 .wrapper {
@@ -38,6 +38,7 @@ header {
     z-index: 1;
     border-bottom:1px solid #364f6b;
     background: radial-gradient(#f5f9ee,#eef2e2);
+    opacity: 0.5;
     transition: 0.5s;
 }
 
@@ -203,6 +204,7 @@ p {
 #contact {
     padding:50px 0px 50px 0px;
     background: radial-gradient(#f5f9ee,#eef2e2);
+    opacity: 0.5;
 }
 
 .footer {
@@ -237,5 +239,4 @@ h3 {
     width: 100%;
     padding: 50px 0px 50px 0px;
     margin-top: 50px;
-    background: radial-gradient(#f5f9ee,#eef2e2);
 }
