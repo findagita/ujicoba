@@ -202,6 +202,7 @@ p {
 
 #contact {
     padding:50px 0px 50px 0px;
+    background: radial-gradient(#f5f9ee,#eef2e2);
 }
 
 .footer {
@@ -236,4 +237,5 @@ h3 {
     width: 100%;
     padding: 50px 0px 50px 0px;
     margin-top: 50px;
+    background: radial-gradient(#f5f9ee,#eef2e2);
 }
