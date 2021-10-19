@@ -7,14 +7,16 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Shrikhand',cursive;
+    font-family: 'Poppins',sans-serif;
     background: radial-gradient(#9fd3c7,#eef2e2);
 }
 
 .wrapper {
-    width: 1100px;
-    margin: auto;
-    position: relative;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .logo {
