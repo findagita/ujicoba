@@ -37,6 +37,7 @@ header {
     z-index: 1;
     border-bottom:1px solid #364f6b;
     background: radial-gradient(#f5f9ee,#eef2e2);
+    transition: 0.5s;
 }
 
 header ul {
@@ -60,7 +61,6 @@ header ul li a {
 
 header ul li a:hover {
     background-color:#f8da5b;
-    transition: 0.5s;
 }
 
 section {
