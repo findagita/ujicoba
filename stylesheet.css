@@ -38,7 +38,7 @@ header {
     z-index: 1;
     border-bottom:1px solid #364f6b;
     background: radial-gradient(#f5f9ee,#eef2e2);
-    opacity: 0.5;
+    font: Poppins;
     transition: 0.5s;
 }
 
@@ -204,7 +204,6 @@ p {
 #contact {
     padding:50px 0px 50px 0px;
     background: radial-gradient(#f5f9ee,#eef2e2);
-    opacity: 0.5;
 }
 
 .footer {
