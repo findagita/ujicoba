@@ -76,16 +76,16 @@ section {
 .kolom .heading {
     font-size: 20px;
     font-weight: bold;
-    font-family: 'comic sans ms';
-    color: #364f6b;
+    font-family: 'Poppins';
+    color: #247291;
 }
 
 h2 {
-    font-family: 'comic sans ms';
+    font-family: 'Poppins';
     font-weight: 800;
     font-size: 45px;
     margin-bottom: 20px;
-    color: #364f6b;
+    color: #247291;
     width: 100%;
     line-height: 50px;
 }
@@ -123,9 +123,7 @@ a.btn-pink:active {
 
 .main {
     padding: 200px 0 200px 0;
-    background-image: url(https://image.freepik.com/free-photo/silhouettes-businesspeople-office_1098-2957.jpg);
-    background-size: cover;
-    color:#FFFFFF;
+    background: radial-gradient(#eef2e2,#f8da5b6);
     text-align: center;
 }
 
