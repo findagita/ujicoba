@@ -52,7 +52,7 @@ header ul li {
 }
 
 header ul li a {
-    color: ##247291;
+    color: #247291;
     font-weight: medium;
     text-align: center;
     padding: 30px 10px 30px 10px;
@@ -136,6 +136,8 @@ a.btn-pink:active {
     padding: 0 15px;
     margin: 0 auto;
     font-size: medium;
+    background: background: radial-gradient(ellipse at top, #e66465, transparent),
+                radial-gradient(ellipse at bottom, #4d9f0c, transparent);
 }
 .home h1 {
     opacity: 100;
