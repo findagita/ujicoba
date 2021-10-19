@@ -8,7 +8,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins',sans-serif;
-    background: radial-gradient(#f5f9ee, #f8da5b);
+    background: radial-gradient(#f8da5b,#f5f9ee);
 }
 
 .wrapper {
@@ -201,7 +201,6 @@ p {
 }
 
 #contact {
-    background: #fff;
     padding:50px 0px 50px 0px;
 }
 
