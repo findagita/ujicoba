@@ -125,7 +125,7 @@ a.btn-pink:active {
 
 .main {
     padding: 200px 50px 200px 50px;
-    background: background: radial-gradient(ellipse at top, #e66465, transparent),
+    background: radial-gradient(ellipse at top, #e66465, transparent),
                 radial-gradient(ellipse at bottom, #4d9f0c, transparent);
     text-align: left;
 }
@@ -136,7 +136,7 @@ a.btn-pink:active {
     padding: 0 15px;
     margin: 0 auto;
     font-size: medium;
-    background: background: radial-gradient(ellipse at top, #e66465, transparent),
+    background: radial-gradient(ellipse at top, #e66465, transparent),
                 radial-gradient(ellipse at bottom, #4d9f0c, transparent);
 }
 .home h1 {
