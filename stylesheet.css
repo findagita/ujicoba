@@ -7,7 +7,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 
 .wrapper {
@@ -16,12 +16,9 @@ body {
     position: relative;
 }
 
-.logo a {
-    font-size: 20px;
-    font-weight: 700;
+.logo {
     float: left;
-    font-family: courier;
-    color: #364f6b;
+    font-family: Poppins;
 }
 
 .menu {
@@ -36,9 +33,9 @@ header {
     position: sticky;
     position: -webkit-sticky; 
     top: 0;
-    background: #FFFFFF;
     z-index: 1;
     border-bottom:1px solid #364f6b;
+    background: radial-gradient(#f5f9ee,#eef2e2);
 }
 
 header ul {
