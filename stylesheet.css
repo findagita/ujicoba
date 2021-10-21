@@ -164,22 +164,33 @@ p {
     width: 100%;
 }
 
-.services-list{
-    display:flex;
+.lesson {
     float: left;
-    position: relative;
+    width: 25%;
 }
 
-.services-icon p ul li {
-    width: 50%;
-    margin-top: 15px;
-    font-size: 15px;
+.lesson-icon {
+    position:relative;
+}
+.lesson-icon img{
+    max-width:85%;
+    height:auto;
 }
   
-.services-icon img {
-    margin: auto;
-    display:inline-block;
-    width: 400px;
+.lesson-icon p {
+    position: absolute;
+    top: 90px;
+    width:100%;
+    color:#555;
+    text-align: center;  
+}
+  
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #555;
 }
 
 .tim-list {
