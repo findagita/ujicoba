@@ -164,25 +164,22 @@ p {
     width: 100%;
 }
 
-.lesson {
+.services-list{
+    display:flex;
     float: left;
-    width: 25%;
+    position: relative;
 }
 
-.lesson-icon {
-    position:relative;
-}
-.lesson-icon img{
-    max-width:85%;
-    height:auto;
+.services-icon p ul li {
+    width: 50%;
+    margin-top: 15px;
+    font-size: 15px;
 }
   
-.lesson-icon p {
-    position: absolute;
-    top: 90px;
-    width:100%;
-    color:#555;
-    text-align: center;  
+.services-icon img {
+    margin: auto;
+    display:inline-block;
+    width: 400px;
 }
   
 .txt-contents {
